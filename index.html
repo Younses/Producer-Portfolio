@@ -45,7 +45,7 @@
             
             <div class="btn_projects">
                 <a href="https://www.youtube.com/channel/UCWveLtZFh8ohqE3Z-CJVrhg">
-                    <button type="button" class="sous_btn_projects">My youtube channel</button>
+                    <button type="button" class="sous_btn_projects">My channel</button>
                 </a>
             </div>
         </div>
@@ -123,9 +123,10 @@
             <!-- "data-netlify="true"" for have a form detection in Netlify -->
             <form name="contact" onsubmit="return validateForm()" method="POST" data-netlify="true">
                <input type="hidden" name="form-name" value="contact" />
+               <table class="form-style">
                   <tr>
                      <td>
-                        <label class="input">
+                        <label>
                            Your name <span class="required">*</span>
                         </label>
                      </td>
@@ -136,7 +137,7 @@
                   </tr>
                   <tr>
                      <td>
-                        <label class="input">
+                        <label>
                            Your e-mail <span class="required">*</span>
                         </label>
                      </td>
@@ -163,6 +164,7 @@
                         <input type="reset" value="Reset"> 
                      </td>
                   </tr>
+               </table>
             </form>
         </div>
     </div>
